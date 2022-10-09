@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OdinLandingPage</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div>
     <div class="header">
         <div class="header-top-bar">
             <p class="header-logo">Header Logo</p>
@@ -19,12 +19,12 @@
         </div>
         <div class="header-content">
             <div class="header-left-content">
-                <p>This website is awesome</p>
-                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                <p class="header-content-main-text">This website is awesome</p>
+                <p class="header-content-sub-text">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
                 <button type="button">Sign up</button>
             </div>
             <div class="header-right-content">
-                <img alt="this is a placeholder for an image">
+                <img class="placeholder" src="./images/placeholder.jpg" alt="this is a placeholder for an image">
             </div>
         </div>
     </div>
@@ -55,14 +55,17 @@
     </div>
     <div class="page-sub-footer">
         <div class="call-to-action-panel">
-            <p>Call to action! It's time!</p>
-            <p>Call to action! It's time!</p>
+            <div class="panel-text">
+            <p class="panel-main-text">Call to action! It's time!</p>
+            <p class="panel-sub-text">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="panel-button-container">
             <button type="button">Sign up</button>
+        </div>
         </div>
     </div>
     <div class="footer">
         <p>Copyright - The Odin Project 2021</p>
     </div>
-</div>
 </body>
 </html>
