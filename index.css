@@ -131,21 +131,26 @@ button{
 }
 
 .page-sub-footer{
-    display: flex;
-    width: 100%;
-}
-
-.call-to-action-panel{
-    display: flex;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    border-radius: 7px;
     padding: 30px 50px 30px 50px;
     margin: 50px 150px 50px 150px;
     background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 550px;
+}
+
+.call-to-action-panel{
+    font-family: Arial, Helvetica, sans-serif;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bolder;
-    border-radius: 7px;
+}
+
+.panel-button-container > button{
+    height: 40px;
+    border: 2px solid white;
 }
 
 .panel-text{
@@ -157,17 +162,11 @@ button{
 }
 
 .panel-sub-text{
-    display: flex;
     margin: 0px;
     font-size: 16px;
     color: #E5E7EB;
     font-weight: 400;
     float: inline-start;
-}
-
-.panel-button-container{
-    display: flex;
-    justify-items: flex-end;
 }
 
 .footer{
