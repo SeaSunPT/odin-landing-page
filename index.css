@@ -138,7 +138,6 @@ button{
     background-color: #3882F6;
     justify-content: space-around;
     align-items: center;
-    min-width: 650px;
 }
 
 .call-to-action-panel{
@@ -151,6 +150,7 @@ button{
 .panel-button-container > button{
     height: 40px;
     border: 2px solid white;
+    white-space: nowrap;
 }
 
 .panel-text{
